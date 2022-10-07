@@ -1,0 +1,18 @@
+pure functions
+--------------
+1. Returns the same result if the same arguements are passed in
+2. Depend solely on the arguements passed into them
+3. Do not produce side effects such as API requests and I/O Operations 
+
+The most important feature of pure function is that it is predictable
+If we have a function that takes in our state and an action that occurred, the function should return the exact same result every single time
+
+Reducer function
+-----------------
+A reducer must be a pure function. It takes in the state and the action and returns the new state for the application. 
+
+store, reducer and action is the way that Redux works 
+
+----------------------------------------
+
+Redux-Middleware 
